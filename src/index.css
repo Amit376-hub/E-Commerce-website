@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-watermark {
+  background-image: url('/src/assets/image.jpeg'); /* adjust path if needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  opacity: 0.03;
+}
